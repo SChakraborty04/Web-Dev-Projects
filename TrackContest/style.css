@@ -1,111 +1,140 @@
+caption img,
+h1 img {
+    height: 30px;
+    margin-bottom: -5px
+}
+
 body,
 html,
 table {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 100%
 }
+
 #hero,
 body,
 h1,
 h2,
 html,
 table {
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
+
 caption,
 h1 {
-    text-decoration: underline;
+    text-decoration: underline
 }
+
 footer,
+h3,
 td.center {
-    text-align: center;
+    text-align: center
 }
+
 @font-face {
     font-family: GilroyR;
-    src: url("./assets/font/GilroyR.ttf") format("truetype");
+    src: url("./assets/font/GilroyR.ttf") format("truetype")
 }
+
 @font-face {
     font-family: GilroySB;
-    src: url("./assets/font/GilroySB.ttf") format("truetype");
+    src: url("./assets/font/GilroySB.ttf") format("truetype")
 }
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
+
 body,
 html {
     height: 100%;
     padding: 20px;
     font-family: GilroyR;
-    background-color: #dadada;
+    background-color: #dadada
 }
+
 h1 {
-    font-family: GilroySB;
+    font-family: GilroySB
 }
+
 h2 {
     font-size: 20px;
     font-family: GilroyR;
+    line-height: 25px
 }
+
 table {
-    border-collapse: collapse;
+    border-collapse: collapse
 }
+
 td,
 th {
     border: 1px solid #c4c4c4;
     text-align: left;
     padding: 8px;
-    border-radius: 3px;
+    border-radius: 3px
 }
+
 th {
-    background-color: #63cbff;
+    background-color: #63cbff
 }
+
 td {
-    background-color: #a7f2ff;
+    background-color: #a7f2ff
 }
+
 #hero {
     background-color: #f2f2f2;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px
 }
+
 .host-header {
     font-size: 1.2em;
     font-weight: 700;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: left
 }
+
 .timer,
 footer {
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
+
 a {
     text-decoration: none;
-    color: #000;
+    color: #000
 }
+
 svg {
-    rotate: -45deg;
+    rotate: -45deg
 }
+
 caption img {
-    height: 30px;
     width: 30px;
-    margin-right: 10px;
-    margin-bottom: -5px;
+    margin-right: 10px
 }
+
 td.center {
     height: 100%;
-    background-color: #fff;
+    background-color: #fff
 }
+
 .timer {
-    font-size: 0.8em;
-    font-style: italic;
+    font-size: .8em;
+    font-style: italic
 }
+
 footer {
-    font-size: 1em;
+    font-size: 1em
 }
-@media (max-width: 600px) {
+
+@media (max-width:600px) {
+
     table tbody tr :nth-child(3),
     table thead tr :nth-child(3) {
-        display: none;
+        display: none
     }
 }
